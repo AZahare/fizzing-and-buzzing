@@ -1,0 +1,98 @@
+/* general */
+* {
+    background-color:  #fff5e6;
+    color: #003300;
+    font-family: 'Bookman Old Style';
+    font-size: 25px;
+}
+
+button {
+    background-color: #ffe0b3;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bookman Old Style';
+    font-size: 60px;
+}
+
+/* divs and classes */
+div {
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    height: 50px;
+    
+    text-align: center;
+    padding: 35px;
+    margin: 5px;
+}
+
+.fB {
+    background-color: #ff00ff;
+}
+.fB:hover {
+    background-color: #800080;
+}
+
+.fizz {
+    background-color: #008000;
+}
+
+.buzz {
+    background-color: #1aff1a;
+}
+
+.number {
+    background-color: #80ff80;
+    color: black;
+}
+
+/* buttons */
+button {
+    width: 200px;
+    height: 60px;
+
+}
+
+/* mobile, tablet, desktop*/
+.controls {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+}
+main {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+}
+@media(min-width: 576px) {
+    * {
+        background-color: #ffe0b3;
+    }
+    .controls {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    main {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 992px) {
+    * {
+        background-color:  #ffcc80;
+    }
+    .controls {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    main {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
